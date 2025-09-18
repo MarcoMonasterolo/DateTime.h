@@ -30,10 +30,17 @@ int m = dt.getMonth();
 int y = dt.getYear();
 ```
 
-E infine è possibile ottenere la data del computer. 
+Inoltre si può ottenere la data del computer. 
 
 ```
 DateTime dt = DateTime::now();
+```
+
+E infine, utilizzando la funzione apposita, si può convertire in stringa la data.
+
+
+```
+std::string s = dt.ToString();
 ```
 
 
