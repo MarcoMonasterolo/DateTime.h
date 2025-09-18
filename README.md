@@ -3,7 +3,7 @@ Libreria scritta in C++ che introduce l'oggetto DateTime utilizzato in C#
 
 # Funzionalità 💻
 
-Per dichiare l'oggetto datetime, occorre scrivere:
+Per dichiarare l'oggetto datetime, occorre scrivere:
 ```
 DateTime dt;
 ```
@@ -45,7 +45,7 @@ std::string s = dt.ToString();
 
 
 # DISCLAIMER!!!! ‼️
-La libreria è ancora in fase di sviluppo e ho solo inserito le funzioni principali, in seguito, se ho tempo, aggiungerò altre funzioni. Inoltre, nonostante sia molto piccola come libreria, può comunque contenere bug o implementazioni migliorabili, dato che sto ancora prendendo dimestichezza con C++.
+La libreria è ancora in fase di sviluppo e ho solo inserito le funzioni principali, in seguito, se ho tempo, ne aggiungerò altre. Inoltre, nonostante sia molto piccola come libreria, può comunque contenere bug o implementazioni migliorabili, dato che sto ancora prendendo dimestichezza con C++.
 
 
 # Info 📁
