@@ -54,6 +54,7 @@ Librerie Usate:
 ```
 <iostream>
 <ctime>
+<string>
 ```
 
 Per qualsiasi problema / consiglio, utilizzare la scheda issues apposita.
