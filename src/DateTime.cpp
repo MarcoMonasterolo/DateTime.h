@@ -1,6 +1,7 @@
 #include "DateTIme.h"
 #include <ctime>
 #include <iostream>
+#include <string>
 
 static DateTime Now() {
 
@@ -67,4 +68,48 @@ int DateTime::setYear(int y) {
     catch (int errore) {
         std::cout << "Errore" << std::endl;
     }
+}
+
+std::string ToString()
+{
+    std::string g;
+    std::string m;
+    std::string a;
+
+    if (giorno < 10)
+    {
+        g = "0" + std::to_string(giorno);
+    }
+    else
+    {
+        g = std::to_string(giorno);
+    }
+
+    if (mese < 10)
+    {
+        m = "0" + std::to_string(mese);
+    }
+    else
+    {
+        m = std::to_string(mese);
+    }
+
+    if (anno < 10)
+    {
+        a = "000" + std::to_string(anno);
+    }
+    else if (anno < 100)
+    {
+        a = "00" + std::to_string(anno);
+    }
+    else if (anno < 1000)
+    {
+        a = "0" + std::to_string(anno);
+    }
+    else
+    {
+        a = std::to_string(anno);
+    }
+
+    return g + "/" + m + "/" + a;
 }

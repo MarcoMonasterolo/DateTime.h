@@ -28,6 +28,8 @@ public:
     int setMonth(int m);
     int setYear(int y);
 
+    std::string ToString();
+
 };
 
 #endif //DATETIME_LIBRARY_H
