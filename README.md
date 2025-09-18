@@ -48,3 +48,5 @@ Librerie Usate:
 <iostream>
 <ctime>
 ```
+
+Per qualsiasi problema / consiglio, utilizzare la scheda issues apposita.
