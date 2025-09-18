@@ -58,7 +58,7 @@ int DateTime::setMonth(int m) {
 
 int DateTime::setYear(int y) {
     try {
-        if (y <= 0 || y > 2000) {
+        if (y <= 0 || y > 3000) {
             throw 69;
         }
 
