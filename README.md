@@ -3,7 +3,7 @@ Libreria scritta in C++ che introduce l'oggetto DateTime utilizzato in C#
 
 # Funzionalità 💻
 
-Per dichiare l'oggetto datetime, occorrescrivere:
+Per dichiare l'oggetto datetime, occorre scrivere:
 ```
 DateTime dt;
 ```
