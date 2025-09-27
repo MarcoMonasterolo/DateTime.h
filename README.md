@@ -1,6 +1,8 @@
 # DateTime.h ⌚
 Libreria scritta in C++ che introduce l'oggetto DateTime utilizzato in C#
 
+# !!!LEGGI LA WIKI PER LE NOVITA IN ARRIVO!!!
+
 # Funzionalità 💻
 
 Per dichiarare l'oggetto datetime, occorre scrivere:
