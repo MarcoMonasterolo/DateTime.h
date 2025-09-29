@@ -1,9 +1,9 @@
-#include "DateTIme.h"
+#include "../include/DateTime.h"
 #include <ctime>
 #include <iostream>
 #include <string>
 
-static DateTime Now() {
+DateTime DateTime::Now() {
 
     DateTime dt;
 
@@ -16,7 +16,7 @@ static DateTime Now() {
 
     return dt;
 
-};
+}
 
 int DateTime::getDay() {
     return giorno;
@@ -30,7 +30,7 @@ int DateTime::getYear() {
     return anno;
 }
 
-int DateTime::setDay(int d) {
+void DateTime::setDay(int d) {
 
     try {
         if (d <= 0 || d > 31) {
@@ -44,7 +44,7 @@ int DateTime::setDay(int d) {
     }
 }
 
-int DateTime::setMonth(int m) {
+void DateTime::setMonth(int m) {
     try {
         if (m <= 0 || m > 12) {
             throw 69;
@@ -57,7 +57,7 @@ int DateTime::setMonth(int m) {
     }
 }
 
-int DateTime::setYear(int y) {
+void DateTime::setYear(int y) {
     try {
         if (y <= 0 || y > 3000) {
             throw 69;
@@ -70,7 +70,7 @@ int DateTime::setYear(int y) {
     }
 }
 
-std::string ToString()
+std::string DateTime::ToString()
 {
     std::string g;
     std::string m;

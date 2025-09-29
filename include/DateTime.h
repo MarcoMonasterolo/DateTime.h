@@ -1,6 +1,8 @@
 #ifndef DATETIME_LIBRARY_H
 #define DATETIME_LIBRARY_H
 
+#include <string>
+
 class DateTime {
 private:
     int giorno;
@@ -24,9 +26,9 @@ public:
     int getMonth();
     int getYear();
 
-    int setDay(int d);
-    int setMonth(int m);
-    int setYear(int y);
+    void setDay(int d);
+    void setMonth(int m);
+    void setYear(int y);
 
     std::string ToString();
 
